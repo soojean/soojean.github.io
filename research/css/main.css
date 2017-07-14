@@ -5,9 +5,10 @@ body {
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 2px;
     list-style: none;
     font-weight: bold;
+    border-bottom: 3px solid #3b5faa;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -31,8 +32,8 @@ h2 {
 }
 p {
     font-family:'Arial', 'Arial', 'Sans-Serif';
-    font-size: 1.3em;
-    line-height: 1.4em;
+    font-size: 1.15em;
+    line-height: 0.5em;
     color: #06225f;
 }
 footer {
