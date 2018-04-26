@@ -37,10 +37,10 @@ h3 {
     padding:1;
 }
 p {
+    font-size: 1em;
     font-family:'Arial', 'Arial', 'Sans-Serif';
-    font-size: 1.3em;
-    line-height: 1.4em;
     color: #06225f;
+    line-height: 1.4em;
 }
 footer {
     border-top: 1px solid #3b5faa;
