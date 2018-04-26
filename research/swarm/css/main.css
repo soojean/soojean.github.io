@@ -29,10 +29,14 @@ h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #2d4c8c;
 }
+h3 {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #3d5ea1;
+}
 p {
     font-family:'Arial', 'Arial', 'Sans-Serif';
-    font-size: 1.15em;
-    line-height: 0.5em;
+    font-size: 1em;
+    line-height: 1.4em;
     color: #06225f;
 }
 footer {
@@ -65,9 +69,10 @@ ul li ul li {
     list-style-type: disc;
 }
 img {
-    border: 3px solid #5d73a3;
-    border-radius: 8px;
-    padding: 2px;
+    vertical-align: middle;
+}
+#algo {
     display: block;
     margin: auto;
+    text-align:center;
 }
