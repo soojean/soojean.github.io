@@ -34,7 +34,7 @@ h3 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #8495af;
     margin:0;
-    padding:0.5;
+    padding:1;
 }
 p {
     font-family:'Arial', 'Arial', 'Sans-Serif';
@@ -62,7 +62,7 @@ ul li {
     font-family:'Arial', 'Arial', 'Sans-Serif';
     color: #06225f;
     list-style-image: url('arrow.png');
-    padding: 8px 0px;
+    padding: 10px 0px;
     /*list-style-type: disc;*/
 }
 ul li ul li {
