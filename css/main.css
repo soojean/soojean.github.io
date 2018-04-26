@@ -29,6 +29,11 @@ h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #2d4c8c;
 }
+h3 {
+    font-size: 1em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #8495af;
+}
 p {
     font-family:'Arial', 'Arial', 'Sans-Serif';
     font-size: 1.15em;
