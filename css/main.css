@@ -45,7 +45,7 @@ p {
 footer {
     padding-top: 10px;
     border-top: 1px solid #3b5faa;
-    font-size: .5em;
+    font-size: .6em;
 }
 ol li {
     font-size: 1em;
@@ -79,5 +79,10 @@ img {
     border-radius: 8px;
     padding: 5px;
     display: block;
+    margin: auto;
+}
+iframe {
+    display: block;
+    border-style:none;
     margin: auto;
 }
