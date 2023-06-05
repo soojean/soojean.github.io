@@ -2,12 +2,22 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+nav{
+    padding-bottom: 40px;
+    border-bottom: 3px solid #3b5faa;
+    margin-bottom: 30px;
+}
+.nav-left{
+    float: left;
+}
+.nav-right{
+    float: right;
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 2px;
     list-style: none;
     font-weight: bold;
-    border-bottom: 3px solid #3b5faa;
 }
 nav ul li, footer ul li {
     display: inline;
