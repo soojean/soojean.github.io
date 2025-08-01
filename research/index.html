@@ -27,106 +27,19 @@
       </div>
     </nav>
 
-    <h2 align="center"> <u> (2023/8/28) My research lab at KAIST is now live. Check it out: [<a href="http://acss.kaist.ac.kr/">Link</a>] </u> </h2>
+    <h2 align="center"> I am the PI and director of the <u>Autonomous Control for Stochastic Systems (ACSS) Lab</u> at KAIST.
+    <br>
+    <br> 
+    For more information, please visit our official research webpage [<a href="http://acss.kaist.ac.kr/">Link</a>]</h2>
 
-    <h3 align="center"> My PhD Defense [Jan 2023] </h3>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/G65qC7iNWno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-    <!-- TODO: Add "I am the PI and director of the upcoming Autonomous Control for Stochastic Systems (ACSS) Lab at KAIST. For more information, please visit our research webpage <here>." -->
-
-    <div class="container">
+    <div class="container" align="center" >
       <div class="blurb">
-          <p> The overall goal of my research lies primarily in <b>making stochastic control more efficient</b>. A large part of achieving this goal requires us to understand the tradeoff between model-free (data-driven) and model-based methods.</p>
-          <ul>
-              <li> On one hand, it is feasible to rely entirely on <i>model-free control methods</i> for controlling complex stochastic systems, but a well-known issue with these methods is their intensive data consumption and training time.
-
-              <li> On the other hand, <i>model-based control methods</i> require little to almost no data or training, but can only be designed for simpler classes of stochastic systems, i.e., those whose behavior can be written as explicit equations.
-          </ul>
-
-          <p> Below are sections highlighting some of the projects we are working on towards this overall goal. Click on each section header to expand the details. </p>
+          <p> <b> If the original link (acss.kaist.ac.kr) does not work, please try [<a href="https://soojean.github.io/acss/">This Link</a>] instead. </b></p>
       </div>
     </div>
 
-
-    <button type="button" class="collapsible"><b>Controller Architectures based on Learning Patterns</b></button>
-      <div class="content"> 
-          <p> <u>Motivation</u>: For many network control problems, there exist natural spatial structures and temporal repetition.
-          These <i>patterns</i> can be exploited to prevent controller synthesis methods from spending unnecessary time and energy redundantly computing control laws for repeated scenarios.
-          One example is in controlling congestion of vehicle traffic flow over metropolitan intersection networks. Spatial symmetries arise from the rectangular, grid-like structure of the network, while temporal symmetries arise from both the structure and from human routines, e.g., commute times. </p>
-
-          <img src="./videos/plp_plmp.png" width="800"> 
-
-          <p> <u>Description</u>: We present a modular framework for controlling such systems that is based on learning and taking advantage of these patterns.
-          More specifically, we identify recurrent patterns in the underlying stochastic process, then leverage two key functions: 1) memorize past patterns to prevent redundant computation of control policies, 2) predict the expected occurrence times of future patterns to schedule control policies in advance. </p>
-
-          <p> Representative work(s): </p>
-          <ul>
-              <li> SooJean Han, Soon-Jo Chung, John C. Doyle, "Predictive Control of Linear Discrete-Time Markovian Jump Systems by Learning Recurrent Patterns." Automatica, 2023.
-          </ul> 
-      </div>
-
-
-    <button type="button" class="collapsible"><b>Improving Memory in Reinforcement Learning for Traffic Congestion Control</b></button>
-      <div class="content">       
-          <p> <u>Motivation</u>: In the modern day, both vehicles and light signals are becoming increasingly automated and so we require a framework that will model them as individual agents with the ability to make their own decisions. Moreover, as mentioned in the previous section, metropolitan intersection networks have a lot of spatial and temporal patterns that can be exploited for more efficient control. At present, the state-of-the-art methods to achieve both qualities involve <i>reinforcement learning</i> with a component of <i>memory</i>, i.e., experience replay, episodic control, etc. </p>
-
-          <center>
-            <video width="500" controls autoplay loop>
-              <source src="./videos/plmp_vehicles.mp4" type="video/mp4">
-              Your browser does not support this video.
-            </video> 
-          </center>
-
-          <p> <u>Description</u>: We study and extend the memory component of reinforcement learning methods, and incorporate them within the pattern-learning framework described in the previous section. This includes using an extension of <i>episodic control</i> that builds equivalence classes to group together patterns which are considered "similar" to each other, hereby saving memory consumption.
-          Although the specific application of focus so far has been on traffic congestion control, our goal is to develop this framework to be able to be used in other similar network control applications which can be solved using reinforcement learning methods.
-
-          <p> Representative work(s): </p>
-          <ul>
-              <li> SooJean Han, Soon-Jo Chung, Johanna Gustafson, "Congestion Control of Vehicle Traffic Networks by Learning Structural and Temporal Patterns." L4DC, 2023
-          </ul> 
-      </div>
-
-
-      <button type="button" class="collapsible">More coming soon...</button>
-      <div class="content">
-      </div>
-
-
-      <!-- <button type="button" class="collapsible"><b>Abstracting the Topology of Large-Scale Networks</b></button>
-      <div class="content">       
-          <p> <u>Motivation</u>: 
-
-          <p> <u>Description</u>:
-      </div>
-
-
-    <button type="button" class="collapsible"><b>Switching among Distinct Modes of Operation</b></button>
-      <div class="content">       
-          <p> <u>Motivation</u>: 
-
-          <p> <u>Description</u>:
-      </div> -->
-
-
-    <script>
-      var coll = document.getElementsByClassName("collapsible");
-      var i;
-
-      for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-          this.classList.toggle("active");
-          var content = this.nextElementSibling;
-          if (content.style.maxHeight){
-            content.style.maxHeight = null;
-          } else {
-            content.style.maxHeight = content.scrollHeight + "px";
-          }
-        });
-      }
-    </script>
-
     <footer>
-      <p> Date of latest update: Aug 28, 2023.</p>
+      <p> Date of latest update: Aug 1, 2025.</p>
     </footer>
 
 </body>
